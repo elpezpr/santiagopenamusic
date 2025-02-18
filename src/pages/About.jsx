@@ -2,6 +2,7 @@ import "../styles/about.css";
 import artistImage from "/artist.jpg"; // Place image in `public/`
 
 function About() {
+  
   return (
     <div className="about-container">
       <img src={artistImage} alt="Musician" className="about-image" />

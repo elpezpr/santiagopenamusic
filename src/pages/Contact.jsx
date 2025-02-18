@@ -1,16 +1,12 @@
 import "../styles/contact.css";
+import ContactForm from "../components/ContactForm";
 
 function Contact() {
   return (
     <div className="contact-container">
       <h1>Contact</h1>
       <p>Get in touch for performances, collaborations, or inquiries.</p>
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+      <ContactForm /> {/* This loads the form from ContactForm.jsx */}
     </div>
   );
 }
