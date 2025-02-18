@@ -1,10 +1,14 @@
 import "../styles/about.css";
+import artistImage from "/artist.jpg"; // Place image in `public/`
 
 function About() {
   return (
     <div className="about-container">
-      <h1>About the Artist</h1>
-      <p>Discover the journey, inspirations, and music of Santiago Peña.</p>
+      <img src={artistImage} alt="Musician" className="about-image" />
+      <div className="about-text">
+        <h1>About the Artist</h1>
+        <p>Santiago Peña is a renowned musician known for his captivating melodies...</p>
+      </div>
     </div>
   );
 }

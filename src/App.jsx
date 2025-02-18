@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Gallery from "./pages/Gallery";
+import Gallery from "./components/Gallery";
 import Contact from "./pages/Contact";
 
 function App() {
