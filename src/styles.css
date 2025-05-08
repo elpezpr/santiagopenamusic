@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+html { scroll-behavior: smooth; }
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-parallax {
+  background-image: url('https://iili.io/3edsddu.jpg');
+}
+
+#contact {
+  background-image: url('https://iili.io/3eBeSi7.jpg');
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
