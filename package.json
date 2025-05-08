@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css --watch"
-  },
+  "build:css": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css --watch",
+  "build:prod": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css --minify"
+}
+,
   "keywords": [],
   "author": "",
   "license": "ISC",
