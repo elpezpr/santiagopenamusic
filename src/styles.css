@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom styles */
-html { scroll-behavior: smooth; }
+/* Your custom styles below */
+html {
+  scroll-behavior: smooth;
+}
 
 .parallax {
   background-attachment: fixed;
@@ -13,11 +15,11 @@ html { scroll-behavior: smooth; }
 }
 
 .home-parallax {
-  background-image: url('https://iili.io/3edsddu.jpg');
+  background-image: url('../images/hero1.jpg');
 }
 
 #contact {
-  background-image: url('https://iili.io/3eBeSi7.jpg');
+  background-image: url('../images/contact.jpg');
   background-attachment: fixed;
   background-position: bottom center;
   background-repeat: no-repeat;
